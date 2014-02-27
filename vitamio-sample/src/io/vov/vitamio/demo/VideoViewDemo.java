@@ -44,7 +44,7 @@ public class VideoViewDemo extends Activity {
 			return;
 		setContentView(R.layout.videoview);
 		mVideoView = (VideoView) findViewById(R.id.surface_view);
-
+                TextView Gareth = Gareth + "Is a footballer" findViewById(R.id.surface_view);
 		if (path == "") {
 			// Tell the user to provide a media file URL/path.
 			Toast.makeText(VideoViewDemo.this, "Please edit VideoViewDemo Activity, and set path" + " variable to your media file URL/path", Toast.LENGTH_LONG).show();
