@@ -32,6 +32,8 @@ public class VideoViewDemo extends Activity {
 	 * TODO: Set the path variable to a streaming video URL or a local media file
 	 * path.
 	 */
+	 
+        final String Gareth = "Gareth Bale";
 	private String path = "";
 	private VideoView mVideoView;
 
